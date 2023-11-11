@@ -2,13 +2,21 @@
 
 > a chrome extension tools built with Vite + Vanilla, and Manifest v3
 
+## What it does
+
+This chrome extension will automatically place your PR attachments into a grid of your selected size.
+
+![gif](demo.gif)
+
 ## Installing
+
+- Chrome Web Store link soon
+
+## Developing
 
 1. Check if your `Node.js` version is >= **14**.
 2. Change or configurate the name of your extension on `src/manifest`.
 3. Run `npm install` to install the dependencies.
-
-## Developing
 
 run the command
 
