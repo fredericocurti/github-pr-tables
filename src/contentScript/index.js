@@ -50,6 +50,12 @@ export const handleGridSizeSelected = (rows, cols) => {
     return
   }
 
+  // If there are no files, just add the table empty
+  if (files.length === 0) {
+    textarea.value += markdownTable
+    return
+  }
+
   for (let i = files.length; i >= 0; i--) {
     if (i === 0) {
       textarea.value = textarea.value.replace(files[i], markdownTable)
