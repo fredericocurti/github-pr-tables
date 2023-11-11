@@ -1,5 +1,7 @@
 export function generateMarkdownTable(items, i, j) {
-  if (!items || !items.length) return
+  if (!items || !items.length) {
+    items = []
+  }
   // Check if the provided dimensions are valid
   if (i <= 0 || j <= 0) {
     return 'Invalid dimensions for the table.'
@@ -27,7 +29,7 @@ export function generateMarkdownTable(items, i, j) {
         markdownTable += `| ${items[fileIndex]} `
         fileIndex++
       } else {
-        markdownTable += '|'
+        markdownTable += `| `
       }
     }
     markdownTable += '|\n'
