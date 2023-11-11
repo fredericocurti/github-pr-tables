@@ -1,4 +1,4 @@
-# github-pr-tables
+# <img src="public/img/logo-48.png" height="24" /> Github PR Tables
 
 > a chrome extension tools built with Vite + Vanilla, and Manifest v3
 
@@ -10,7 +10,7 @@ This chrome extension will automatically place your PR attachments into a grid o
 
 ## Installing
 
-- Chrome Web Store link soon tm
+- Install from [Chrome Web Store](https://chromewebstore.google.com/detail/github-pr-tables/kjahfabnmnmgglkgngplpnfojnamkame)
 
 ## Developing
 
