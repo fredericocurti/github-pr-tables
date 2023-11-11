@@ -10,7 +10,12 @@ const mountButton = () => {
   const label = document.createElement('span')
   label.innerText = '⋮⋮⋮'
   const toolbar = document.querySelector("div[data-target='action-bar.itemContainer']")
-  const buttonMold = toolbar.firstElementChild
+  const buttonMold = toolbar?.firstElementChild ?? undefined
+
+  if (!buttonMold) {
+    return
+  }
+
   btn = buttonMold.cloneNode(true)
   btn.id = 'gridify-button'
   btn.firstElementChild.firstElementChild.firstElementChild.replaceWith(label)
