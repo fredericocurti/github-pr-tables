@@ -16,7 +16,7 @@ const mountButton = () => {
   btn.firstElementChild.firstElementChild.firstElementChild.replaceWith(label)
   btn.firstElementChild.firstElementChild.id = 'gridify-button-inner'
   btn.firstElementChild.lastElementChild.setAttribute('for', 'gridify-button-inner')
-  btn.firstElementChild.lastElementChild.innerHTML = 'Gridify attachments'
+  btn.firstElementChild.lastElementChild.innerHTML = 'Create table'
   toolbar.prepend(btn)
   btn.addEventListener(
     'click',
