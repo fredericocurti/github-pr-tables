@@ -10,7 +10,7 @@ This chrome extension will automatically place your PR attachments into a grid o
 
 ## Installing
 
-- Chrome Web Store link soon
+- Chrome Web Store link soon tm
 
 ## Developing
 
